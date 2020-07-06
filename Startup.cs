@@ -51,11 +51,7 @@ namespace Rekordpool
 
                 // User settings.
                 options.User.AllowedUserNameCharacters =
-<<<<<<< HEAD
                 "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+ ";
-=======
-                "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
                 options.User.RequireUniqueEmail = true;
             });
 

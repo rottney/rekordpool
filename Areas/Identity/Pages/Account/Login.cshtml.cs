@@ -43,13 +43,8 @@ namespace Rekordpool.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-<<<<<<< HEAD
             [Display(Name = "Artist Name")]
             public string UserName { get; set; }
-=======
-            [EmailAddress]
-            public string Email { get; set; }
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
 
             [Required]
             [DataType(DataType.Password)]
@@ -84,11 +79,7 @@ namespace Rekordpool.Areas.Identity.Pages.Account
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-<<<<<<< HEAD
                 var result = await _signInManager.PasswordSignInAsync(Input.UserName, Input.Password, Input.RememberMe, lockoutOnFailure: false);
-=======
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
