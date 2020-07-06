@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Rekordpool.csproj",
-=======
-  "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20525,182 +20521,102 @@
   "RootNamespace": "Rekordpool",
   "Documents": [
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Delete.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Pool/Delete.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Pool\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/Account/Login.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/Account/Login.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/Account/Logout.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/Account/Logout.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Edit.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Pool/Edit.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Pool\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Details.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Pool/Details.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Pool\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Index.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Index.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Error.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Error.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/Account/_ViewImports.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/Account/_ViewImports.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/_ViewImports.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/_ViewImports.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Privacy.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Privacy.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/_ViewImports.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/_ViewImports.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/Account/Register.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/Account/Register.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Shared/_Layout.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Shared/_Layout.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Create.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Pool/Create.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Pool\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Index.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Pool/Index.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Pool\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/_ViewStart.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/_ViewStart.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/_ViewStart.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/_ViewStart.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Shared/_ValidationScriptsPartial.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Shared/_ValidationScriptsPartial.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-<<<<<<< HEAD
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Shared/_LoginPartial.cshtml",
-=======
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Pages/Shared/_LoginPartial.cshtml",
->>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
       "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     }
