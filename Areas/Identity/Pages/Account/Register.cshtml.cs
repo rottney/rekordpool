@@ -46,10 +46,13 @@ namespace Rekordpool.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+<<<<<<< HEAD
             [Display(Name = "Artist Name")]
             public string UserName { get; set; }
 
             [Required]
+=======
+>>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
@@ -78,7 +81,11 @@ namespace Rekordpool.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
+<<<<<<< HEAD
                 var user = new IdentityUser { UserName = Input.UserName, Email = Input.Email };
+=======
+                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+>>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {

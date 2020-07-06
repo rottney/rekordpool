@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Rekordpool.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Rekordpool.csproj",
         "packagesPath": "/Users/randyroughhouse/.nuget/packages/",
         "outputPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/obj/",
+=======
+    "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj": {}
+  },
+  "projects": {
+    "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj",
+        "projectName": "Rekordpool",
+        "projectPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj",
+        "packagesPath": "/Users/randyroughhouse/.nuget/packages/",
+        "outputPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/",
+>>>>>>> 2ad06cb10c4123d8b890840763835ba6a790ed35
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
