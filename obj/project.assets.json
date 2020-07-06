@@ -8882,11 +8882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj",
+      "projectUniqueName": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Rekordpool.csproj",
       "projectName": "Rekordpool",
-      "projectPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/Rekordpool.csproj",
+      "projectPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Rekordpool.csproj",
       "packagesPath": "/Users/randyroughhouse/.nuget/packages/",
-      "outputPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/",
+      "outputPath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -8970,5 +8970,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
