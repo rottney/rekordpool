@@ -188,3 +188,4 @@
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Details.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Edit.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Index.cshtml.g.cs
+/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/bin/Debug/netcoreapp3.1/SendGrid.dll
