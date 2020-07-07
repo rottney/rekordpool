@@ -1,5 +1,6 @@
 @page
 @model Rekordpool.Pages.Pool.IndexModel
+@inject SignInManager<IdentityUser> SignInManager
 
 @{
     ViewData["Title"] = "Index";
@@ -45,8 +46,12 @@
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a>
+                @if (SignInManager.IsSignedIn(User) && User.Identity.Name == item.AddedBy)
+                {
+                    <text> | </text>
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                }
             </td>
         </tr>
 }
