@@ -45,10 +45,11 @@
                 <a href="@Html.DisplayFor(modelItem => item.Link)" target="_blank">Link</a>
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Details</a>
                 @if (SignInManager.IsSignedIn(User) && User.Identity.Name == item.AddedBy)
                 {
+                    <text> | </text>
+                    <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a>
                     <text> | </text>
                     <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
                 }
