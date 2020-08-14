@@ -20566,11 +20566,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"

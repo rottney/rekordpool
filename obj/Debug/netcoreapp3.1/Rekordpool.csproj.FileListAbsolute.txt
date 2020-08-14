@@ -76,7 +76,6 @@
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
-/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
