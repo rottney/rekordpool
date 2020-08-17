@@ -1,9 +1,10 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace Rekordpool.Models
 {
-    public class Track
+    public class Track : IValidatableObject
     {
         public int ID { get; set; }
 
@@ -22,5 +23,17 @@ namespace Rekordpool.Models
             ErrorMessage = "Link must be a valid Spotify or Soundcloud URL.  "
             + "Please copy link directly from Spotify or SoundCloud app.")]
         public string Link { get; set; }
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            Console.WriteLine("beep");  // DELETEME
+
+            if (ArtistName == AddedBy) 
+            {
+                yield return new ValidationResult(
+                    "u can't add ur own tracks (4 now)",
+                    new[] { nameof(ArtistName), nameof(AddedBy) }); 
+            }
+        }
     }
 }
