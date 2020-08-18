@@ -1,6 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace Rekordpool.Models
 {
@@ -26,13 +29,32 @@ namespace Rekordpool.Models
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            Console.WriteLine("beep");  // DELETEME
+            var client = new HttpClient();
 
+            HttpResponseMessage response = MyGet(client, Link).Result;
+
+            HttpContent responseContent = response.Content;
+
+            MyPrint(responseContent);
+
+            // DELETE ME...
             if (ArtistName == AddedBy) 
             {
                 yield return new ValidationResult(
                     "u can't add ur own tracks (4 now)",
                     new[] { nameof(ArtistName), nameof(AddedBy) }); 
+            }
+        }
+
+        public async Task<HttpResponseMessage> MyGet(HttpClient client, String link)
+        {
+            return await client.GetAsync(link);
+        }
+
+        public async void MyPrint(HttpContent responseContent) {
+            using (var reader = new StreamReader(await responseContent.ReadAsStreamAsync()))
+            {
+                Console.WriteLine(await reader.ReadToEndAsync());
             }
         }
     }
