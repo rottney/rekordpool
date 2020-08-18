@@ -30,19 +30,16 @@ namespace Rekordpool.Models
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
             var client = new HttpClient();
-
             HttpResponseMessage response = MyGet(client, Link).Result;
-
             HttpContent responseContent = response.Content;
+            String htmlText = ReadHtml(responseContent).Result;
 
-            MyPrint(responseContent);
-
-            // DELETE ME...
-            if (ArtistName == AddedBy) 
+            if (htmlText.ToUpper().IndexOf(ArtistName.ToUpper()) == -1
+                || htmlText.ToUpper().IndexOf(Title.ToUpper()) == -1)
             {
                 yield return new ValidationResult(
-                    "u can't add ur own tracks (4 now)",
-                    new[] { nameof(ArtistName), nameof(AddedBy) }); 
+                    "Artist Name and Title do not match provided link.",
+                    new[] { nameof(Link) });
             }
         }
 
@@ -51,10 +48,10 @@ namespace Rekordpool.Models
             return await client.GetAsync(link);
         }
 
-        public async void MyPrint(HttpContent responseContent) {
+        public async Task<String> ReadHtml(HttpContent responseContent) {
             using (var reader = new StreamReader(await responseContent.ReadAsStreamAsync()))
             {
-                Console.WriteLine(await reader.ReadToEndAsync());
+                return await reader.ReadToEndAsync();
             }
         }
     }
