@@ -45,10 +45,24 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.AddedBy)
-                </td>                
-                <td>
-                    @Html.Raw(item.Link.Replace("width=\"100%\"", "width=\"67%\""))
                 </td>
+
+                @{
+                    string iframe = "<iframe src=\"";
+
+                    if (item.Link.Contains("spotify")) {
+                        var spotifyLink = item.Link.Replace("/track", "/embed/track");
+                        iframe = iframe + spotifyLink + "\" height=\"80\" ></iframe>";
+                    }
+
+                    if (item.Link.Contains("soundcloud")) {
+                        iframe = item.Link;
+                    }
+                }
+                <td>
+                    @Html.Raw(iframe)
+                </td>
+
                 <td>
                     @if (SignInManager.IsSignedIn(User) && User.Identity.Name == item.AddedBy)
                     {
