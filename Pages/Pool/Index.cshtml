@@ -24,20 +24,18 @@
             <th>
                 @Html.DisplayNameFor(model => model.Track[0].AddedBy)
             </th>
-            <!-- <th>
-                @Html.DisplayNameFor(model => model.Track[0].Link)
-            </th> -->
             <th>
-                <!-- for iframe -->
+                Embed Link
             </th>
             <th>
-                <!-- for Details/Edit/Delete -->
+                <!-- for Delete -->
             </th>
         </tr>
     </thead>
 
     <tbody>
-        @foreach (var item in Model.Track) {
+        @foreach (var item in Model.Track) 
+        {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.ArtistName)
@@ -47,35 +45,13 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.AddedBy)
-                </td>
-
-                <!-- <td>
-                    <a href="@Html.DisplayFor(modelItem => item.Link)" target="_blank">Link</a>
-                </td> -->
-                <!-- <td>
-                    <iframe width="67%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/770283019&color=%23ff5500&inverse=false&auto_play=false&show_user=false">
-                    </iframe>
-
-                    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                        <a href="https://soundcloud.com/grlgang" title="GRL GANG" target="_blank" style="color: #cccccc; text-decoration: none;">
-                            GRL GANG
-                        </a> · 
-                        <a href="https://soundcloud.com/grlgang/jinx-make-you-mine" title="Jinx - Make You Mine" target="_blank" style="color: #cccccc; text-decoration: none;">
-                            Jinx - Make You Mine
-                        </a>
-                    </div>
-                </td> -->
-                
+                </td>                
                 <td>
-                    @Html.Raw(item.Link)
+                    @Html.Raw(item.Link.Replace("width=\"100%\"", "width=\"67%\""))
                 </td>
                 <td>
-                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a>
                     @if (SignInManager.IsSignedIn(User) && User.Identity.Name == item.AddedBy)
                     {
-                        <text> | </text>
-                        <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a>
-                        <text> | </text>
                         <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
                     }
                 </td>
