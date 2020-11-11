@@ -33,6 +33,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.3",
           "SendGrid": "9.17.0",
+          "Toolbelt.EntityFrameworkCore.IndexAttribute": "5.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2458,6 +2459,46 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder/3.1.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll": {}
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.IndexAttribute/5.0.0": {
+        "dependencies": {
+          "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder": "3.1.0",
+          "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.dll": {}
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5250,6 +5291,27 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q9WO8huR4+rfjxtBKaUQ7GPi2BEPtwFlWcmq8VGvPfZ2PrZNw293D0D03TB55QQQ2M9bh/my/sLR1J62Rr9zjA==",
+      "path": "toolbelt.entityframeworkcore.annotationbasedmodelbuilder/3.1.0",
+      "hashPath": "toolbelt.entityframeworkcore.annotationbasedmodelbuilder.3.1.0.nupkg.sha512"
+    },
+    "Toolbelt.EntityFrameworkCore.IndexAttribute/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OPUlS3EsiAShlOq51qVXk69+9zGJfnpBj4cjgl2HOCKSQWkaggKqCSYwezSoh7EIZmKDoKuAvxFskaG1FhkoFw==",
+      "path": "toolbelt.entityframeworkcore.indexattribute/5.0.0",
+      "hashPath": "toolbelt.entityframeworkcore.indexattribute.5.0.0.nupkg.sha512"
+    },
+    "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nU5CDf5xa+9CmWhUd3TwMMEBHHNZVflSJEX0b1UyMpm+vcKzNStuGL4jmA2HlAiKqH8VmKwVAC1JRHDg0urBUQ==",
+      "path": "toolbelt.entityframeworkcore.indexattribute.attribute/5.0.0",
+      "hashPath": "toolbelt.entityframeworkcore.indexattribute.attribute.5.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

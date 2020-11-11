@@ -5,6 +5,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.IO;
 
+using Toolbelt.ComponentModel.DataAnnotations.Schema.V5;
+
 namespace Rekordpool.Models
 {
     public class Track : IValidatableObject
@@ -21,12 +23,13 @@ namespace Rekordpool.Models
         [Display(Name = "Added By")]
         public string AddedBy { get; set; }
 
-        // OLD VALIDATION
-        /*[Required]
-        [RegularExpression(@"^http(s)?://(soundcloud.|open.spotify.)([\w-]+.)+[\w-]+(/[\w- ./?%&=])?$",
-            ErrorMessage = "Link must be a valid Spotify or Soundcloud URL.  "
-            + "Please copy link directly from Spotify or SoundCloud app.")]*/
         [Required]
+        // Currently only supporting SoundCloud
+        [RegularExpression(@"^.*https://w.soundcloud.com/player.*$",
+            ErrorMessage = "Not a valid SoundCloud mini embed link.  " 
+            + "Please see help page for instructions.")]
+        [StringLength(10000000)]
+        [IndexColumn(IsUnique = true)]
         public string Link { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)

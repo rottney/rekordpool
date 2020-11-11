@@ -76,6 +76,10 @@
             "SendGrid": {
               "target": "Package",
               "version": "[9.17.0, )"
+            },
+            "Toolbelt.EntityFrameworkCore.IndexAttribute": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
