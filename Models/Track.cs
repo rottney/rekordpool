@@ -11,11 +11,11 @@ namespace Rekordpool.Models
     {
         public int ID { get; set; }
 
-        [Required]
+        //[Required]
         [Display(Name = "Artist Name")]
         public string ArtistName { get; set; }
 
-        [Required]
+        //[Required]
         public string Title { get; set; }
         
         [Display(Name = "Added By")]
@@ -26,6 +26,7 @@ namespace Rekordpool.Models
         [RegularExpression(@"^http(s)?://(soundcloud.|open.spotify.)([\w-]+.)+[\w-]+(/[\w- ./?%&=])?$",
             ErrorMessage = "Link must be a valid Spotify or Soundcloud URL.  "
             + "Please copy link directly from Spotify or SoundCloud app.")]*/
+        [Required]
         public string Link { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
@@ -39,7 +40,7 @@ namespace Rekordpool.Models
             if (htmlText.ToUpper().IndexOf(ArtistName.ToUpper()) == -1
                 || htmlText.ToUpper().IndexOf(Title.ToUpper()) == -1)
             {*/
-            
+
             // FIX MEEEE...
             if (validationContext.Equals(null))
             {
