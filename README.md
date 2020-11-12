@@ -40,7 +40,7 @@
 </p>
 
 <p>
-    *Note:*  Mobile devices are not supported at this time.
+    **Note:**  Mobile devices are not supported at this time.
 
     <br>
     <b>Coming Soon:</b>  Support for Spotify links!
