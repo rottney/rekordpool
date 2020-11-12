@@ -1,6 +1,5 @@
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/bin/Debug/netcoreapp3.1/Rekordpool.StaticWebAssets.xml
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/bin/Debug/netcoreapp3.1/Rekordpool.deps.json
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/bin/Debug/netcoreapp3.1/Rekordpool.runtimeconfig.json
@@ -183,8 +182,6 @@
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewImports.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Create.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Delete.cshtml.g.cs
-/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Details.cshtml.g.cs
-/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Edit.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/Rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Pool/Index.cshtml.g.cs
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/bin/Debug/netcoreapp3.1/SendGrid.dll
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/bin/Debug/netcoreapp3.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll
@@ -192,3 +189,4 @@
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/bin/Debug/netcoreapp3.1/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/bin/Debug/netcoreapp3.1/app.db
 /Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/obj/Debug/netcoreapp3.1/Razor/Pages/Help.cshtml.g.cs
+/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/obj/Debug/netcoreapp3.1/scopedcss/bundle/Rekordpool.styles.css

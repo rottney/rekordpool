@@ -14407,16 +14407,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Edit.cshtml",
-      "TargetPath": "Pages\\Pool\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Pool/Details.cshtml",
-      "TargetPath": "Pages\\Pool\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"

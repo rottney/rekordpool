@@ -13,11 +13,9 @@ namespace Rekordpool.Models
 {
     public class Track// : IValidatableObject
     {
-        [Required]
         [Display(Name = "Artist Name")]
         public string ArtistName { get; set; }
 
-        [Required]
         public string Title { get; set; }
         
         [Display(Name = "Added By")]
@@ -26,7 +24,7 @@ namespace Rekordpool.Models
         [Key]
         [Required]
         // Currently only supporting SoundCloud
-        [RegularExpression(@"^.*https://w.soundcloud.com/player.*$",
+        [RegularExpression(@"^.*(20){1}.*https://w.soundcloud.com/player.*$",
             ErrorMessage = "Not a valid SoundCloud mini embed link.  " 
             + "Please see help page for instructions.")]
         public string Link { get; set; }

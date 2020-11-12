@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KGy5EYk14tIPpzoYbajHKPza9rpNiZtzNAoMkmPP4QNhb3hPG+TVIVTYnZDhHCn7GgwOj1mnkO+tZtNZ71bjzQ==",
+  "dgSpecHash": "p3v/UyYvfzgQ9mmoswEUKSquxLFoF6IJ7/xYHm/piKrmA35qLoKarTD/v/GLnPPz4ypsNl2Xxt6tqx1kpEUsVg==",
   "success": true,
   "projectFilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Rekordpool.csproj",
   "expectedPackageFiles": [
@@ -179,7 +179,8 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "/Users/randyroughhouse/.nuget/packages/toolbelt.entityframeworkcore.annotationbasedmodelbuilder/3.1.0/toolbelt.entityframeworkcore.annotationbasedmodelbuilder.3.1.0.nupkg.sha512",
     "/Users/randyroughhouse/.nuget/packages/toolbelt.entityframeworkcore.indexattribute/5.0.0/toolbelt.entityframeworkcore.indexattribute.5.0.0.nupkg.sha512",
-    "/Users/randyroughhouse/.nuget/packages/toolbelt.entityframeworkcore.indexattribute.attribute/5.0.0/toolbelt.entityframeworkcore.indexattribute.attribute.5.0.0.nupkg.sha512"
+    "/Users/randyroughhouse/.nuget/packages/toolbelt.entityframeworkcore.indexattribute.attribute/5.0.0/toolbelt.entityframeworkcore.indexattribute.attribute.5.0.0.nupkg.sha512",
+    "/Users/randyroughhouse/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
   ],
   "logs": []
 }
