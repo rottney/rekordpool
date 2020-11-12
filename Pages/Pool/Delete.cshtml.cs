@@ -24,8 +24,12 @@ namespace Rekordpool.Pages.Pool
 
         public async Task<IActionResult> OnGetAsync(string link)
         {
-            if (link.Equals(null))
+            Console.WriteLine("made it her...");
+            //if (link.Equals(null))
+            Console.WriteLine(link);
+            if (link == null)
             {
+                Console.WriteLine("link is null");
                 return NotFound();
             }
 
@@ -33,19 +37,21 @@ namespace Rekordpool.Pages.Pool
 
             if (Track == null)
             {
+                Console.WriteLine("Track is null");
                 return NotFound();
             }
+            Console.WriteLine("returning page...");
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int? id)
+        public async Task<IActionResult> OnPostAsync(string link)
         {
-            if (id == null)
+            if (link == null)
             {
                 return NotFound();
             }
 
-            Track = await _context.Track.FindAsync(id);
+            Track = await _context.Track.FindAsync(link);
 
             if (Track != null)
             {

@@ -1,17 +1,12 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Rekordpool.Data;
 using Rekordpool.Models;
 
 using System.IO;
 
 using System.Net.Http;
-using System.Net;
 
 namespace Rekordpool.Pages.Pool
 {
@@ -44,26 +39,38 @@ namespace Rekordpool.Pages.Pool
 
             if (Track.Link.Contains("soundcloud")) 
             {
+                string artist = "";
+                string title = "";
                 try 
                 {
                     string[] parts = Track.Link.Split("none;\">");
                 
-                    string artist = parts[1].Substring(0, parts[1].IndexOf("</a>"));
-                    string title = parts[2].Substring(0, parts[2].IndexOf("</a>"));
+                    artist = parts[1].Substring(0, parts[1].IndexOf("</a>"));
+                    title = parts[2].Substring(0, parts[2].IndexOf("</a>"));
 
                     artist = artist.Replace("&#x27;", "'");
                     artist = artist.Replace("&amp;", "&");
                     title = title.Replace("&#x27;", "'");
                     title = title.Replace("&amp;", "&");
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine("Invalid URL SoundCloud mini embed link.  "
+                        + " Please see Help page for instructions.");
+                    Console.WriteLine(e);
+                }
 
+                try{
                     Track.ArtistName = artist;
                     Track.Title = title;
 
                     _context.Track.Add(Track);
                     await _context.SaveChangesAsync();
                 }
+                // Note:  currently checking by link, which will not scale when Spotify feature is added...
                 catch(Exception e)
                 {
+                    Console.WriteLine("Attempted to add a track which is already in the database.");
                     Console.WriteLine(e);
                 }
             }
@@ -89,6 +96,7 @@ namespace Rekordpool.Pages.Pool
         }
 
 
+        // Below helper methods perform curl when Spotify support is added
         public async Task<HttpResponseMessage> MyGet(HttpClient client, String link)
         {
             return await client.GetAsync(link);
