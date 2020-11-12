@@ -14447,6 +14447,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Help.cshtml",
+      "TargetPath": "Pages\\Help.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/randyroughhouse/Documents/Programming Projects/ASP.NET/rekordpool/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

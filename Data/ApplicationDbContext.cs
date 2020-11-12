@@ -17,20 +17,5 @@ namespace Rekordpool.Data
 
         
         public DbSet<Rekordpool.Models.Track> Track { get; set; }
-
-        // Tried to use to enforce unique artist/track,
-        // but only runs at startup
-        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {   
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Rekordpool.Models.Track>()
-                .HasIndex(t => new { t.ArtistName, t.Title })
-                .IsUnique(true);
-            
-            Console.WriteLine("made it her");
-
-            //modelBuilder.BuildIndexesFromAnnotations();
-        }*/
     }
 }

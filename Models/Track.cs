@@ -13,13 +13,11 @@ namespace Rekordpool.Models
 {
     public class Track// : IValidatableObject
     {
-        //public int ID { get; set; }
-
-        //[Required]
+        [Required]
         [Display(Name = "Artist Name")]
         public string ArtistName { get; set; }
 
-        //[Required]
+        [Required]
         public string Title { get; set; }
         
         [Display(Name = "Added By")]
@@ -54,6 +52,7 @@ namespace Rekordpool.Models
                     new[] { nameof(Link) });
             }
         }*/
+
 
         public async Task<HttpResponseMessage> MyGet(HttpClient client, String link)
         {

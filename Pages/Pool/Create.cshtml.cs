@@ -52,25 +52,26 @@ namespace Rekordpool.Pages.Pool
                     artist = artist.Replace("&amp;", "&");
                     title = title.Replace("&#x27;", "'");
                     title = title.Replace("&amp;", "&");
-                }
-                catch(Exception e)
-                {
-                    Console.WriteLine("Invalid URL SoundCloud mini embed link.  "
-                        + " Please see Help page for instructions.");
-                    Console.WriteLine(e);
+
+                    try{
+                        Track.ArtistName = artist;
+                        Track.Title = title;
+
+                        _context.Track.Add(Track);
+                        await _context.SaveChangesAsync();
+                    }
+                    // Note:  currently checking by link, which will not scale when Spotify feature is added...
+                    catch(Exception e)
+                    {
+                        Console.WriteLine("Attempted to add a track which is already in the database.");
+                        Console.WriteLine(e);
+                    }
                 }
 
-                try{
-                    Track.ArtistName = artist;
-                    Track.Title = title;
-
-                    _context.Track.Add(Track);
-                    await _context.SaveChangesAsync();
-                }
-                // Note:  currently checking by link, which will not scale when Spotify feature is added...
                 catch(Exception e)
                 {
-                    Console.WriteLine("Attempted to add a track which is already in the database.");
+                    Console.WriteLine("Invalid SoundCloud mini embed link.  "
+                        + "Please see Help page for instructions.");
                     Console.WriteLine(e);
                 }
             }
