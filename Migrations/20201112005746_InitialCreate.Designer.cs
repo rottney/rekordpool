@@ -6,10 +6,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Rekordpool.Data;
 
-namespace Rekordpool.Data.Migrations
+namespace Rekordpool.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200706031021_InitialCreate")]
+    [Migration("20201112005746_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -216,9 +216,8 @@ namespace Rekordpool.Data.Migrations
 
             modelBuilder.Entity("Rekordpool.Models.Track", b =>
                 {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Link")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("AddedBy")
                         .HasColumnType("TEXT");
@@ -226,13 +225,10 @@ namespace Rekordpool.Data.Migrations
                     b.Property<string>("ArtistName")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Link")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Title")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("ID");
+                    b.HasKey("Link");
 
                     b.ToTable("Track");
                 });

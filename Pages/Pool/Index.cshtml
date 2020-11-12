@@ -71,7 +71,7 @@
                 <td>
                     @if (SignInManager.IsSignedIn(User) && User.Identity.Name == item.AddedBy)
                     {
-                        <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Link">Delete</a>
                     }
                 </td>
             </tr>

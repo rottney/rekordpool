@@ -21,14 +21,14 @@ namespace Rekordpool.Pages.Pool
 
         public Track Track { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync(string link)
         {
-            if (id == null)
+            if (link.Equals(null))
             {
                 return NotFound();
             }
 
-            Track = await _context.Track.FirstOrDefaultAsync(m => m.ID == id);
+            Track = await _context.Track.FirstOrDefaultAsync(m => m.Link.Equals(link));
 
             if (Track == null)
             {

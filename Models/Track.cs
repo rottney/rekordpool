@@ -13,7 +13,7 @@ namespace Rekordpool.Models
 {
     public class Track// : IValidatableObject
     {
-        public int ID { get; set; }
+        //public int ID { get; set; }
 
         //[Required]
         [Display(Name = "Artist Name")]
@@ -25,6 +25,7 @@ namespace Rekordpool.Models
         [Display(Name = "Added By")]
         public string AddedBy { get; set; }
 
+        [Key]
         [Required]
         // Currently only supporting SoundCloud
         [RegularExpression(@"^.*https://w.soundcloud.com/player.*$",
