@@ -40,7 +40,7 @@
 </p>
 
 <p>
-    <b>Note:</b>  Mobile devices are not supported at this time.
+    *Note:*  Mobile devices are not supported at this time.
 
     <br>
     <b>Coming Soon:</b>  Support for Spotify links!
@@ -48,6 +48,5 @@
 
 <p>
     If you encounter any problems, please 
-    <a href="https://github.com/rottney/rekordpool/issues/new", target="_blank">raise an issue</a>
-     with the developer 🤙
+    <a href="https://github.com/rottney/rekordpool/issues/new", target="_blank">raise an issue</a>!
 </p>
